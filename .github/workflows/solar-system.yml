@@ -47,6 +47,6 @@ jobs:
           run: npm run coverage
         - uses: actions/upload-artifact@v3
           with:
-            - name: Code-Coverage-Result
-            - path: coverage
-            - retention-days: 5
+            name: Code-Coverage-Result
+            path: coverage
+            retention-days: 5
